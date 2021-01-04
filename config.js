@@ -35,6 +35,6 @@ module.exports = {
     },
   ],
   email: 'mmcclure0100@gmail.com',
-  url: 'https://docs.google.com/document/d/1VbkFktDgiDr7yPf3dlR-ETvwzrWzE7iDK0ZFAI9dMDY/edit?usp=sharing',
+  url: 'https://docs.google.com/document/d/e/2PACX-1vRBl2LaZRFn_bw52U-55Zimc5P5p4zzCY5rqDXjUjr5ZYSJUm9e-2ynC4S1OxBok-ES-LwPIJUhzFvg/pub',
   address: 'St. Cloud, MN, USA',
 };
