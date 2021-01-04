@@ -79,11 +79,12 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Misty</h4>
+                  <a key={config.witchyWardrobe} href={config.witchyWardrobe}><h4 className="text-white">Witchy Wardrobe</h4></a>
                   <p className="mb-0 text-white-50">
                     An example of where you can put an image of a project, or
                     anything else, along with a description.
                   </p>
+                  <a key={config.witchyWardrobeRepo} href={config.witchyWardrobeRepo} className="text-white">Repo</a>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
               </div>

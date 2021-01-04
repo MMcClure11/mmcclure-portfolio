@@ -39,4 +39,6 @@ module.exports = {
   address: 'St. Cloud, MN, USA',
   natureWatch: 'https://nature-watch.herokuapp.com/',
   natureWatchRepo: 'https://github.com/MMcClure11/sightings-client',
+  witchyWardrobe: 'https://mmcclure11.github.io/witchy-wardrobe-frontend/',
+  witchyWardrobeRepo: 'https://github.com/MMcClure11/witchy-wardrobe-frontend',
 };
