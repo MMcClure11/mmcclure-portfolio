@@ -12,6 +12,7 @@ import ipad from '../assets/images/ipad.png';
 import demoImage1 from '../assets/images/demo-image-01.jpg';
 import demoImage2 from '../assets/images/demo-image-02.jpg';
 import bgMaster from '../assets/images/bg-masthead.jpg';
+import headerImage from '../assets/images/mountains-with-lake.jpg'
 
 const IndexPage = () => (
   <Layout>
