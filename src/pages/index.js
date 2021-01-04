@@ -100,12 +100,13 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
+                  <h4 className="text-white">Book Nook</h4>
                   <p className="mb-0 text-white-50">
                     Another example of a project with its respective
                     description. These sections work well responsively as well,
                     try this theme on a small screen!
                   </p>
+                  <a key={config.bookNookRepo} href={config.bookNookRepo} className="text-white">Repo</a>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
               </div>

@@ -41,4 +41,5 @@ module.exports = {
   natureWatchRepo: 'https://github.com/MMcClure11/sightings-client',
   witchyWardrobe: 'https://mmcclure11.github.io/witchy-wardrobe-frontend/',
   witchyWardrobeRepo: 'https://github.com/MMcClure11/witchy-wardrobe-frontend',
+  bookNookRepo: 'https://github.com/MMcClure11/rails-project-book-nook',
 };
