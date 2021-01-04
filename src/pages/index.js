@@ -60,12 +60,13 @@ const IndexPage = () => (
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
+              <a key={config.natureWatch} href={config.natureWatch}><h4>Nature Watch</h4></a>
               <p className="text-black-50 mb-0">
                 Grayscale is open source and MIT licensed. This means you can
                 use it for any project - even commercial projects! Download it,
                 customize it, and publish your website!
               </p>
+              <a key={config.natureWatchRepo} href={config.natureWatchRepo} className="text-black-50 mb-0">Repo</a>
             </div>
           </div>
         </div>
