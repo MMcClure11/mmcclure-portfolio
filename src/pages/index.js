@@ -37,7 +37,7 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">Built with Bootstrap 4</h2>
+            <h2 className="text-white mb-4">Technologies</h2>
             <p className="text-white-50">
               Grayscale is a free Bootstrap theme created by Start Bootstrap. It
               can be yours right now, simply download the starter on
@@ -62,9 +62,9 @@ const IndexPage = () => (
             <div className="featured-text text-center text-lg-left">
               <a key={config.natureWatch} href={config.natureWatch}><h4>Nature Watch</h4></a>
               <p className="text-black-50 mb-0">
-                Grayscale is open source and MIT licensed. This means you can
-                use it for any project - even commercial projects! Download it,
-                customize it, and publish your website!
+                A single page application for users to add sightings of Flora and Fauna and leave comments. 
+                The UI was built using React.js and Redux Thunk to retrieve and persist data. 
+                I Implemented node-sass as a CSS precompiler to efficiently design the site.
               </p>
               <a key={config.natureWatchRepo} href={config.natureWatchRepo} className="text-black-50 mb-0">Repo</a>
             </div>
@@ -81,8 +81,9 @@ const IndexPage = () => (
                 <div className="project-text w-100 my-auto text-center text-lg-left">
                   <a key={config.witchyWardrobe} href={config.witchyWardrobe}><h4 className="text-white">Witchy Wardrobe</h4></a>
                   <p className="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
+                    An Object Oriented JS application for users to create clothing items and outfits. 
+                    I generated item cards asynchronously fetched from a custom Rails API
+                    and overwrote the Bootstrap framework defaults to add styling.
                   </p>
                   <a key={config.witchyWardrobeRepo} href={config.witchyWardrobeRepo} className="text-white">Repo</a>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
@@ -102,9 +103,9 @@ const IndexPage = () => (
                 <div className="project-text w-100 my-auto text-center text-lg-right">
                   <h4 className="text-white">Book Nook</h4>
                   <p className="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
+                    A Rails book database for users to create reading lists and review books. 
+                    I utilized the  Google Books API for users to be able to search a robust database of content. 
+                    Users were authenticated with Github OmniAuth, Bcrypt, sessions and cookies.
                   </p>
                   <a key={config.bookNookRepo} href={config.bookNookRepo} className="text-white">Repo</a>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
