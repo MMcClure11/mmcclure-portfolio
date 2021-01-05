@@ -33,8 +33,8 @@ const IndexPage = () => (
       </div>
     </header>
 
-    <section id="about" className="about-section text-center">
-      <div className="container">
+    <section id="about" className="about-section text-center pb-5">
+      <div className="container p-5">
         <div className="row">
           <div className="col-lg-8 mx-auto">
             <h2 className="text-white mb-4">Technologies</h2>
@@ -55,7 +55,7 @@ const IndexPage = () => (
             </a>
           </div>
         </div>
-        <img src={ipad} className="img-fluid" alt="" />
+        {/* <img src={ipad} className="img-fluid" alt="" /> */}
       </div>
     </section>
 
