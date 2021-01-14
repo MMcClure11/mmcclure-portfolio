@@ -12,6 +12,8 @@ module.exports = {
   heading: 'Megs McClure',
   subHeading: "Detail-oriented full stack software engineer. Passionate collaborator that values diversity and creativity. Let's improve lives with code.",
 
+  // https://mmcclure11.github.io/mmcclure-portfolio/
+
   // social
   socialLinks: [
     {
