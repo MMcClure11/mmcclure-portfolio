@@ -8,7 +8,6 @@ import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
 import Header from '../components/Header';
 
-import ipad from '../assets/images/ipad.png';
 import demoImage1 from '../assets/images/demo-image-01.jpg';
 import demoImage2 from '../assets/images/demo-image-02.jpg';
 import bgMaster from '../assets/images/bg-masthead.jpg';
@@ -21,7 +20,9 @@ const IndexPage = () => (
       <div className="container d-flex h-100 align-items-center">
         <div className="mx-auto text-center">
           <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1>
-          <h2 className="text-white-50 mx-auto mt-2 mb-5">Pronouns: they/them/theirs</h2>
+          <h2 className="text-white-50 mx-auto mt-2 mb-5">
+            Pronouns: they/them/theirs
+          </h2>
           <h2 className="text-white-50 mx-auto mt-2 mb-5">
             {config.subHeading}
           </h2>
@@ -40,20 +41,21 @@ const IndexPage = () => (
           <div className="col-lg-8 mx-auto">
             <h2 className="text-white mb-4">Technologies</h2>
             <p className="text-white-50 mb-2 ">
-              <span className="text-white">Frontend:</span> HTML | CSS | JavaScript(ES6) | React.js | Redux | Bootstrap | SASS
+              <span className="text-white">Frontend:</span> HTML | CSS |
+              JavaScript(ES6) | React.js | Redux | Bootstrap | SASS
             </p>
             <p className="text-white-50 mb-2">
-              <span className="text-white">Backend:</span> Ruby | Ruby on Rails | Sinatra
+              <span className="text-white">Backend:</span> Ruby | Ruby on Rails
+              | Sinatra
             </p>
             <p className="text-white-50 mb-2">
               <span className="text-white">Database:</span> SQLite3 | PostgreSQL
             </p>
             <p className="text-white-50 mb-2">
-            <span className="text-white">Other:</span> OAuth(third-party user authentication) | Git | Github | Pair Programming | Heroku
+              <span className="text-white">Other:</span> OAuth(third-party user
+              authentication) | Git | Github | Pair Programming | Heroku
             </p>
-            <a href="https://github.com/MMcClure11">
-                Github
-            </a>
+            <a href="https://github.com/MMcClure11">Github</a>
           </div>
         </div>
         {/* <img src={ipad} className="img-fluid" alt="" /> */}
@@ -68,13 +70,22 @@ const IndexPage = () => (
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <a key={config.natureWatch} href={config.natureWatch}><h4>Nature Watch</h4></a>
+              <a key={config.natureWatch} href={config.natureWatch}>
+                <h4>Nature Watch</h4>
+              </a>
               <p className="text-black-50 mb-0">
-                A single page application for users to add sightings of Flora and Fauna and leave comments. 
-                The UI was built using React.js and Redux Thunk to retrieve and persist data. 
-                I Implemented node-sass as a CSS precompiler to efficiently design the site.
+                A single page application for users to add sightings of Flora
+                and Fauna and leave comments. The UI was built using React.js
+                and Redux Thunk to retrieve and persist data. I Implemented
+                node-sass as a CSS precompiler to efficiently design the site.
               </p>
-              <a key={config.natureWatchRepo} href={config.natureWatchRepo} className="text-black-50 mb-0">Repo</a>
+              <a
+                key={config.natureWatchRepo}
+                href={config.natureWatchRepo}
+                className="text-black-50 mb-0"
+              >
+                Repo
+              </a>
             </div>
           </div>
         </div>
@@ -87,13 +98,22 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <a key={config.witchyWardrobe} href={config.witchyWardrobe}><h4 className="text-white">Witchy Wardrobe</h4></a>
+                  <a key={config.witchyWardrobe} href={config.witchyWardrobe}>
+                    <h4 className="text-white">Witchy Wardrobe</h4>
+                  </a>
                   <p className="mb-0 text-white-50">
-                    An Object Oriented JS application for users to create clothing items and outfits. 
-                    I generated item cards asynchronously fetched from a custom Rails API
-                    and overwrote the Bootstrap framework defaults to add styling.
+                    An Object Oriented JS application for users to create
+                    clothing items and outfits. I generated item cards
+                    asynchronously fetched from a custom Rails API and overwrote
+                    the Bootstrap framework defaults to add styling.
                   </p>
-                  <a key={config.witchyWardrobeRepo} href={config.witchyWardrobeRepo} className="text-white">Repo</a>
+                  <a
+                    key={config.witchyWardrobeRepo}
+                    href={config.witchyWardrobeRepo}
+                    className="text-white"
+                  >
+                    Repo
+                  </a>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
               </div>
@@ -111,11 +131,19 @@ const IndexPage = () => (
                 <div className="project-text w-100 my-auto text-center text-lg-right">
                   <h4 className="text-white">Book Nook</h4>
                   <p className="mb-0 text-white-50">
-                    A Rails book database for users to create reading lists and review books. 
-                    I utilized the  Google Books API for users to be able to search a robust database of content. 
-                    Users were authenticated with Github OmniAuth, Bcrypt, sessions and cookies.
+                    A Rails book database for users to create reading lists and
+                    review books. I utilized the Google Books API for users to
+                    be able to search a robust database of content. Users were
+                    authenticated with Github OmniAuth, Bcrypt, sessions and
+                    cookies.
                   </p>
-                  <a key={config.bookNookRepo} href={config.bookNookRepo} className="text-white">Repo</a>
+                  <a
+                    key={config.bookNookRepo}
+                    href={config.bookNookRepo}
+                    className="text-white"
+                  >
+                    Repo
+                  </a>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
               </div>
