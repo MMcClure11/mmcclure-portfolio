@@ -61,3 +61,21 @@ failed Building development bundle - 20.927s
 yarn add node-sass@4.14.1
 yarn develop
 
+//coming back to this on 7/18/22
+ $ npm install --global gatsby-cli
+ $ npm install
+ $ yarn add node-sass@4.14.1
+ $ npm install
+ $ yarn develop
+ --- error ---
+  ERROR #98123  WEBPACK
+
+Generating development JavaScript bundle failed
+
+Node Sass does not yet support your current environment: OS X 64-bit with Unsupported runtime (93)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.14.1
+
+File: src/assets/sass/grayscale.scss 
+
+ 

@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Megs McClure', // <title>
+  siteTitle: 'Mekss McClure', // <title>
   manifestName: 'Grayscale',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -10,7 +10,8 @@ module.exports = {
   // pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
   pathPrefix: `/mmcclure-portfolio/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Megs McClure',
-  subHeading: "Detail-oriented full stack software engineer. Passionate collaborator that values diversity and creativity. Let's improve lives with code.",
+  subHeading:
+    "Detail-oriented full stack software engineer. Passionate collaborator that values diversity and creativity. Let's improve lives with code.",
 
   // https://mmcclure11.github.io/mmcclure-portfolio/
 
@@ -24,7 +25,7 @@ module.exports = {
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
-      url: 'http://www.linkedin.com/in/megmcclure',
+      url: 'http://www.linkedin.com/in/meksmcclure',
     },
     {
       icon: 'fa-twitter',
@@ -38,7 +39,8 @@ module.exports = {
     },
   ],
   email: 'mmcclure0100@gmail.com',
-  url: 'https://docs.google.com/document/d/e/2PACX-1vRBl2LaZRFn_bw52U-55Zimc5P5p4zzCY5rqDXjUjr5ZYSJUm9e-2ynC4S1OxBok-ES-LwPIJUhzFvg/pub',
+  url:
+    'https://docs.google.com/document/d/e/2PACX-1vRBl2LaZRFn_bw52U-55Zimc5P5p4zzCY5rqDXjUjr5ZYSJUm9e-2ynC4S1OxBok-ES-LwPIJUhzFvg/pub',
   address: 'St. Cloud, MN, USA',
   natureWatch: 'https://nature-watch.herokuapp.com/',
   natureWatchRepo: 'https://github.com/MMcClure11/sightings-client',
