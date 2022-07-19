@@ -41,12 +41,13 @@ const IndexPage = () => (
           <div className="col-lg-8 mx-auto">
             <h2 className="text-white mb-4">Technologies</h2>
             <p className="text-white-50 mb-2 ">
-              <span className="text-white">Frontend:</span> HTML | CSS |
-              JavaScript(ES6) | React.js | Redux | Bootstrap | SASS
+              <span className="text-white">Frontend:</span> LiveView | Phoenix |
+              Alpine.js | TypeScript | HTML | CSS | JavaScript(ES6) | React.js |
+              TailwindCSS
             </p>
             <p className="text-white-50 mb-2">
-              <span className="text-white">Backend:</span> Ruby | Ruby on Rails
-              | Sinatra
+              <span className="text-white">Backend:</span> Elixir | Ruby | Ruby
+              on Rails | Sinatra
             </p>
             <p className="text-white-50 mb-2">
               <span className="text-white">Database:</span> SQLite3 | PostgreSQL
