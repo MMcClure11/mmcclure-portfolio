@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   // pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
   pathPrefix: `/mmcclure-portfolio/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Megs McClure',
+  heading: 'Meks McClure',
   subHeading:
     "Detail-oriented full stack software engineer. Passionate collaborator that values diversity and creativity. Let's improve lives with code.",
 
